@@ -1,0 +1,79 @@
+html {
+  border-left: 5px solid lightgray;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header,
+main,
+footer {
+  padding: 1rem 2rem; /* 1rem top & bottom, 2rem left & right */
+}
+h1 {
+  color: tomato;
+}
+img {
+  width: 100%;
+}
+
+/* General navigation list styling */
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Spread items evenly */
+}
+
+/* Anchor styling for main navigation */
+.main-nav a {
+  color: lightgray; /* Light gray for the main navigation */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Anchor styling for footer navigation */
+.footer-nav a {
+  color: tomato; /* Tomato color for footer navigation */
+  text-decoration: none; /* Remove underline */
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.continue-link {
+  color: tomato;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+}
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article p::first-letter {
+  font-size: 3rem;
+  color: lightgray;
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.copyright {
+  color: lightgray;
+}

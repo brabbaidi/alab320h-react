@@ -1,10 +1,11 @@
+import image1 from "../assets/blog-image-1.jpg"
 function Article1() {
   return (
     <article>
       11/12/20
       <h2 class="blog-title">On the Street in Brooklyn</h2>
       <img
-        src="./blog-image-1.jpg"
+        src={image1}
         alt="a lady in vibrant red dress walking on the side walk"
       />
       <p>

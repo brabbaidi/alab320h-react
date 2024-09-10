@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Article1 from "./components/Article1";
 import Article2 from "./components/Article2";
 import "./index.css";
+
+
 function App() {
   return (
     <main>
